@@ -1,0 +1,222 @@
+[
+    {
+        "name": "Kanto Region",
+        "access_rules": ["@Ecruteak City,ss_ticket","pass"],
+        "chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+        "children": [
+            {
+                "name": "Celadon City",
+                "sections": [
+                    {
+                        "name": "Gym - Erika",
+                        "access_rules": ["@canUseCut"],
+                        "hosted_item": "rainbow_badge"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "kanto",
+                        "x": 702,
+                        "y": 536,
+                    }
+                ]
+            },
+            {
+                "name": "Cerulean City",
+                "sections": [
+                    {
+                        "name": "Rocket Member",
+                        "access_rules": ["power_plant_manager"],
+                        "item_count": 1,
+                    },
+                    {
+                        "name": "Gym - Misty",
+                        "access_rules": ["power_plant_manager"],
+                        "hosted_item": "cascade_badge"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "kanto",
+                        "x": 952,
+                        "y": 370,
+                    }
+                ]
+            },
+            {
+                "name": "Fuschia City",
+                "sections": [
+                    {
+                        "name": "Gym - Koga",
+                        "hosted_item": "soul_badge"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "kanto",
+                        "x": 870,
+                        "y": 1036,
+                    }
+                ]
+            },
+            {
+                "name": "Pewter City",
+                "access_rules": ["fix_power_plant,@canUseCut"],
+                "sections": [
+                    {
+                        "name": "Old Man",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gym - Brock",
+                        "hosted_item": "boulder_badge"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "kanto",
+                        "x": 456,
+                        "y": 370,
+                    }
+                ]
+            },
+            {
+                "name": "Power Plant",
+                "access_rules": ["@canUseSurf,@canUseFlash", "@canUseSurf,@canUseCut", "{@canUseSurf}"],
+                "sections": [
+                    {
+                        "name": "Talk To Manager",
+                        "hosted_item": "power_plant_manager"
+                    },
+                    {
+                        "name": "Fix Power Plant",
+                        "access_rules": ["power_plant_manager,machine_part"],
+                        "hosted_item": "fix_power_plant"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "kanto",
+                        "x": 1284,
+                        "y": 454,
+                    }
+                ]
+            },
+            {
+                "name": "Route 12",
+                "sections": [
+                    {
+                        "name": "Fisherman",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "kanto",
+                        "x": 1284,
+                        "y": 704,
+                    }
+                ]
+            },
+            {
+                "name": "Saffron City",
+                "sections": [
+                    {
+                        "name": "Copycat Girl",
+                        "access_rules": ["lost_item"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gym - Sabrina",
+                        "hosted_item": "marsh_badge"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "kanto",
+                        "x": 952,
+                        "y": 536,
+                    }
+                ]
+            },
+            {
+                "name": "Vermilion City",
+                "sections": [
+                    {
+                        "name": "Pokémon Fan Club",
+                        "access_rules": ["fix_power_plant"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gym - Lt. Surge",
+                        "access_rules": ["@canUseCut", "@canUseSurf"],
+                        "hosted_item": "thunder_badge"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "kanto",
+                        "x": 952,
+                        "y": 704,
+                    }
+                ]
+            },
+            {
+                "name": "Cinnabar Island",
+                "access_rules": ["@Pewter City"],
+                "sections": [
+                    {
+                        "name": "Talk to Blue",
+                        "hosted_item": "blue"
+                    },
+                    {
+                        "name": "Gym - Blaine",
+                        "hosted_item": "volcano_badge"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "kanto",
+                        "x": 456,
+                        "y": 1202,
+                    }
+                ]
+            },
+            {
+                "name": "Viridian City",
+                "sections": [
+                    {
+                        "name": "Gym - Blue",
+                        "access_rules": ["blue"],
+                        "hosted_item": "earth_badge"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "kanto",
+                        "x": 456,
+                        "y": 622,
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Indigo Plateau",
+        "sections": [
+            {
+                "name": "Pokémon League",
+                "access_rules": ["@Pewter City", "badge:8,@canUseSurf,@canUseWaterfall"],
+                "hosted_item": "elite_four"
+            }
+        ],
+        "map_locations": [
+            {
+                "map": "kanto",
+                "x": 204,
+                "y": 204,
+            }
+        ]
+    }
+]

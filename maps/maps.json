@@ -1,0 +1,10 @@
+﻿[
+    {
+        "name": "johto",
+        "img": "images/maps/johto.png"
+    },
+    {
+        "name": "kanto",
+        "img": "images/maps/kanto.png"
+    }
+]

@@ -1,0 +1,321 @@
+[
+    {
+        "name": "Basement Key",
+        "type": "toggle",
+        "img": "images/items/basement_key.png",
+        "codes": "basementkey,basement_key"
+    },
+    {
+        "name": "Bicycle",
+        "type": "toggle",
+        "img": "images/items/bicycle.png",
+        "codes": "bicycle"
+    },
+    {
+        "name": "Blue Card",
+        "type": "toggle",
+        "img": "images/items/blue_card.png",
+        "codes": "bluecard,blue_card"
+    },
+    {
+        "name": "Card Key",
+        "type": "toggle",
+        "img": "images/items/card_key.png",
+        "codes": "cardkey,card_key"
+    },
+    {
+        "name": "Clear Bell",
+        "type": "toggle",
+        "img": "images/items/clear_bell.png",
+        "codes": "clearbell,clear_bell"
+    },
+    {
+        "name": "Coin Case",
+        "type": "toggle",
+        "img": "images/items/coin_case.png",
+        "codes": "coincase,coin_case"
+    },
+    {
+        "name": "Good Rod",
+        "type": "toggle",
+        "img": "images/items/good_rod.png",
+        "codes": "goodrod,good_rod"
+    },
+    {
+        "name": "Itemfinder",
+        "type": "toggle",
+        "img": "images/items/item_finder.png",
+        "codes": "itemfinder,item_finder"
+    },
+    {
+        "name": "Lost Item",
+        "type": "toggle",
+        "img": "images/items/lost_item.png",
+        "codes": "lostitem,lost_item"
+    },
+    {
+        "name": "Machine Part",
+        "type": "toggle",
+        "img": "images/items/machine_part.png",
+        "codes": "machinepart,machine_part"
+    },
+    {
+        "name": "Mystery Egg",
+        "type": "toggle",
+        "img": "images/items/mystery_egg.png",
+        "codes": "mysteryegg,mystery_egg"
+    },
+    {
+        "name": "Old Rod",
+        "type": "toggle",
+        "img": "images/items/old_rod.png",
+        "codes": "oldrod,old_rod"
+    },
+    {
+        "name": "Pass",
+        "type": "toggle",
+        "img": "images/items/pass.png",
+        "codes": "pass"
+    },
+    {
+        "name": "Red Scale",
+        "type": "toggle",
+        "img": "images/items/red_scale.png",
+        "codes": "redscale,red_scale"
+    },
+    {
+        "name": "S.S. Ticket",
+        "type": "toggle",
+        "img": "images/items/ss_ticket.png",
+        "codes": "ssticket,ss_ticket"
+    },
+    {
+        "name": "Secret Potion",
+        "type": "toggle",
+        "img": "images/items/secret_potion.png",
+        "codes": "secretpotion,secret_potion"
+    },
+    {
+        "name": "Silver Wing",
+        "type": "toggle",
+        "img": "images/items/silver_wing.png",
+        "codes": "silverwing,silver_wing"
+    },
+    {
+        "name": "Squirt Bottle",
+        "type": "toggle",
+        "img": "images/items/squirt_bottle.png",
+        "codes": "squirtbottle,squirt_bottle"
+    },
+    {
+        "name": "Super Rod",
+        "type": "toggle",
+        "img": "images/items/super_rod.png",
+        "codes": "superrod,super_rod"
+    },
+    {
+        "name": "HM01 Cut",
+        "type": "toggle",
+        "img": "images/items/hm01.png",
+        "codes": "hm01,cut"
+    },
+    {
+        "name": "HM02 Fly",
+        "type": "toggle",
+        "img": "images/items/hm02.png",
+        "codes": "hm02,fly"
+    },
+    {
+        "name": "HM03 Surf",
+        "type": "toggle",
+        "img": "images/items/hm03.png",
+        "codes": "hm03,surf"
+    },
+    {
+        "name": "HM04 Strength",
+        "type": "toggle",
+        "img": "images/items/hm04.png",
+        "codes": "hm04,strength"
+    },
+    {
+        "name": "HM05 Flash",
+        "type": "toggle",
+        "img": "images/items/hm05.png",
+        "codes": "hm05,flash"
+    },
+    {
+        "name": "HM06 Whirlpool",
+        "type": "toggle",
+        "img": "images/items/hm06.png",
+        "codes": "hm06,whirlpool"
+    },
+    {
+        "name": "HM07 Waterfall",
+        "type": "toggle",
+        "img": "images/items/hm07.png",
+        "codes": "hm07,waterfall"
+    },
+    {
+        "name": "Boulder Badge",
+        "type": "toggle",
+        "img": "images/items/boulder_badge.png",
+        "codes": "boulderbadge,boulder_badge,badge"
+    },
+    {
+        "name": "Cascade Badge",
+        "type": "toggle",
+        "img": "images/items/cascade_badge.png",
+        "codes": "cascadebadge,cascade_badge,badge"
+    },
+    {
+        "name": "Thunder Badge",
+        "type": "toggle",
+        "img": "images/items/thunder_badge.png",
+        "codes": "thunderbadge,thunder_badge,badge"
+    },
+    {
+        "name": "Rainbow Badge",
+        "type": "toggle",
+        "img": "images/items/rainbow_badge.png",
+        "codes": "rainbowbadge,rainbow_badge,badge"
+    },
+    {
+        "name": "Soul Badge",
+        "type": "toggle",
+        "img": "images/items/soul_badge.png",
+        "codes": "soulbadge,soul_badge,badge"
+    },
+    {
+        "name": "Marsh Badge",
+        "type": "toggle",
+        "img": "images/items/marsh_badge.png",
+        "codes": "marshbadge,marsh_badge,badge"
+    },
+    {
+        "name": "Volcano Badge",
+        "type": "toggle",
+        "img": "images/items/volcano_badge.png",
+        "codes": "volcanobadge,volcano_badge,badge"
+    },
+    {
+        "name": "Earth Badge",
+        "type": "toggle",
+        "img": "images/items/earth_badge.png",
+        "codes": "earthbadge,earth_badge,badge"
+    },
+    {
+        "name": "Zephyr Badge",
+        "type": "toggle",
+        "img": "images/items/zephyr_badge.png",
+        "codes": "zephyrbadge,zephyr_badge,badge"
+    },
+    {
+        "name": "Hive Badge",
+        "type": "toggle",
+        "img": "images/items/hive_badge.png",
+        "codes": "hivebadge,hive_badge,badge"
+    },
+    {
+        "name": "Plain Badge",
+        "type": "toggle",
+        "img": "images/items/plain_badge.png",
+        "codes": "plainbadge,plain_badge,badge"
+    },
+    {
+        "name": "Fog Badge",
+        "type": "toggle",
+        "img": "images/items/fog_badge.png",
+        "codes": "fogbadge,fog_badge,badge"
+    },
+    {
+        "name": "Storm Badge",
+        "type": "toggle",
+        "img": "images/items/storm_badge.png",
+        "codes": "stormbadge,storm_badge,badge"
+    },
+    {
+        "name": "Mineral Badge",
+        "type": "toggle",
+        "img": "images/items/mineral_badge.png",
+        "codes": "mineralbadge,mineral_badge,badge"
+    },
+    {
+        "name": "Glacier Badge",
+        "type": "toggle",
+        "img": "images/items/glacier_badge.png",
+        "codes": "glacierbadge,glacier_badge,badge"
+    },
+    {
+        "name": "Rising Badge",
+        "type": "toggle",
+        "img": "images/items/rising_badge.png",
+        "codes": "risingbadge,rising_badge,badge"
+    },
+    {
+        "name": "Talk to Jasmine",
+        "type": "toggle",
+        "img": "images/other/jasmine.png",
+        "codes": "jasmine"
+    },
+    {
+        "name": "Talk to Blue",
+        "type": "toggle",
+        "img": "images/other/blue.png",
+        "codes": "blue"
+    },
+    {
+        "name": "Talk to Power Plant Manager",
+        "type": "toggle",
+        "img": "images/other/power_plant_manager.png",
+        "codes": "power_plant_manager"
+    },
+    {
+        "name": "Fix Power Plant",
+        "type": "toggle",
+        "img": "images/other/fix_power_plant.png",
+        "codes": "fix_power_plant"
+    },
+    {
+        "name": "Defeat Team Rocket",
+        "type": "toggle",
+        "img": "images/other/team_rocket_defeated.png",
+        "disabled_img": "images/other/team_rocket.png",
+        "disabled_img_mods": "brightness|1",
+        "codes": "teamrocket,team_rocket"
+    },
+    {
+        "name": "Elite Four",
+        "type": "toggle",
+        "img": "images/other/trophy.png",
+        "codes": "e4,elite4,elitefour,elite_four"
+    },
+    {
+        "name": "Red",
+        "type": "toggle",
+        "img": "images/other/trophy.png",
+        "codes": "red"
+    },
+    {
+        "name": "GO MODE",
+        "type": "toggle",
+        "img": "images/other/go.png",
+        "codes": "go,gomode,go_mode"
+    },
+    {
+        "name": "ROM Mode",
+        "type": "progressive",
+        "allow_disabled": false,
+        "initial_stage_idx": 1,
+        "loop": true,
+        "stages": [
+            {
+                "img": "images/other/normal_mode.png",
+                "codes": "rom_type,rom_type_normal"
+            },
+            {
+                "img": "images/other/speedchoice_mode.png",
+                "codes": "rom_type,rom_type_speedchoice"
+            }
+        ]
+    }
+]

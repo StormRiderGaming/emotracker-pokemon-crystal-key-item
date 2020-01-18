@@ -1,0 +1,363 @@
+[
+    {
+        "name": "Johto Region",
+        "chest_unopened_img": "images/chests/default_unopened.png",
+        "chest_opened_img": "images/chests/default_opened.png",
+        "children": [
+            {
+                "name": "Azalea Town",
+                "sections": [
+                    {
+                        "name": "Gym - Bugsy",
+                        "hosted_item": "hive_badge"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto",
+                        "x": 620,
+                        "y": 1118
+                    }
+                ]
+            },
+            {
+                "name": "Blackthorn City",
+                "access_rules": ["@Ecruteak City,@canUseStrength,badge:7"],
+                "sections": [
+                    {
+                        "name": "Gym - Clair",
+                        "access_rules": ["rom_type_speedchoice", "@canUseWhirlpool"],
+                        "hosted_item": "rising_badge"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto",
+                        "x": 1285,
+                        "y": 286
+                    }
+                ]
+            },
+            {
+                "name": "Cianwood City",
+                "access_rules": ["@canUseSurf"],
+                "sections": [
+                    {
+                        "name": "Pharmacy",
+                        "access_rules": ["jasmine"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Chuck's Wife",
+                        "access_rules": ["storm_badge"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gym - Chuck",
+                        "access_rules": ["@canUseStrength"],
+                        "hosted_item": "storm_badge"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto",
+                        "x": 116,
+                        "y": 868
+                    }
+                ]
+            },
+            {
+                "name": "Ecruteak City",
+                "access_rules": ["squirt_bottle","pass,ss_ticket"],
+                "sections": [
+                    {
+                        "name": "House",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Kimono Girls",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gym - Morty",
+                        "hosted_item": "fog_badge"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto",
+                        "x": 616,
+                        "y": 286
+                    }
+                ]
+            },
+            {
+                "name": "Goldenrod",
+                "children": [
+                    {
+                        "name": "Goldenrod City",
+                        "sections": [
+                            {
+                                "name": "Bike Shop",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Flower Shop",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Gym - Whitney",
+                                "hosted_item": "plain_badge"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "johto",
+                                "x": 454,
+                                "y": 788
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Goldenrod Radio Tower",
+                        "sections": [
+                            {
+                                "name": "Buena",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "False Director",
+                                "access_rules": ["badge:7"],
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Defeat Team Rocket",
+                                "access_rules": ["badge:7,card_key"],
+                                "hosted_item": "team_rocket"
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "johto",
+                                "x": 384,
+                                "y": 788
+                            }
+                        ]
+                    },
+                    {
+                        "name": "Goldenrod Underground",
+                        "sections": [
+                            {
+                                "name": "Shops",
+                                "item_count": 1
+                            },
+                            {
+                                "name": "Warehouse",
+                                "access_rules": ["badge:7,basement_key"],
+                                "item_count": 1
+                            }
+                        ],
+                        "map_locations": [
+                            {
+                                "map": "johto",
+                                "x": 422,
+                                "y": 722
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Ice Path",
+                "access_rules": ["@Ecruteak City"],
+                "sections": [
+                    {
+                        "name": "Ice Cave",
+                        "access_rules": ["badge:7"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto",
+                        "x": 1205,
+                        "y": 206
+                    }
+                ]
+            },
+            {
+                "name": "Ilex Forest",
+                "sections": [
+                    {
+                        "name": "Retrieve Farfetch'd",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto",
+                        "x": 454,
+                        "y": 1118
+                    }
+                ]
+            },
+            {
+                "name": "Lake of Rage",
+                "access_rules": ["@Ecruteak City"],
+                "sections": [
+                    {
+                        "name": "Red Gyarados",
+                        "access_rules": ["@canUseSurf"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto",
+                        "x": 1035,
+                        "y": 126
+                    }
+                ]
+            },
+            {
+                "name": "Mahogany Town",
+                "access_rules": ["@Ecruteak City"],
+                "sections": [
+                    {
+                        "name": "Rocket Hideout",
+                        "access_rules": ["@canUseSurf"],
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gym - Pryce",
+                        "access_rules": ["@canUseSurf"],
+                        "hosted_item": "glacier_badge"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto",
+                        "x": 1035,
+                        "y": 286
+                    }
+                ]
+            },
+            {
+                "name": "Mt. Silver",
+                "sections": [
+                    {
+                        "name": "Red",
+                        "access_rules": ["badge:16,elite_four"],
+                        "hosted_item": "red"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto",
+                        "x": 1450,
+                        "y": 536
+                    }
+                ]
+            },
+            {
+                "name": "New Bark Town",
+                "sections": [
+                    {
+                        "name": "Prof. Elm",
+                        "access_rules": ["elite_four"],
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto",
+                        "x": 1365,
+                        "y": 868
+                    }
+                ]
+            },
+            {
+                "name": "Olivine City",
+                "access_rules": ["@Ecruteak City"],
+                "sections": [
+                    {
+                        "name": "Fisherman",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Cafe",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Lighthouse - Talk to Jasmine",
+                        "hosted_item": "jasmine"
+                    },
+                    {
+                        "name": "Gym - Jasmine",
+                        "access_rules": ["secret_potion"],
+                        "hosted_item": "mineral_badge"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto",
+                        "x": 285,
+                        "y": 456
+                    }
+                ]
+            },
+            {
+                "name": "Route 30",
+                "sections": [
+                    {
+                        "name": "Mr. Pokémon",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto",
+                        "x": 948,
+                        "y": 656
+                    }
+                ]
+            },
+            {
+                "name": "Route 32",
+                "sections": [
+                    {
+                        "name": "Pokémon Center",
+                        "item_count": 1
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto",
+                        "x": 784,
+                        "y": 1036
+                    }
+                ]
+            },
+            {
+                "name": "Violet City",
+                "sections": [
+                    {
+                        "name": "Sprout Tower",
+                        "item_count": 1
+                    },
+                    {
+                        "name": "Gym - Falkner",
+                        "hosted_item": "zephyr_badge"
+                    }
+                ],
+                "map_locations": [
+                    {
+                        "map": "johto",
+                        "x": 784,
+                        "y": 456
+                    }
+                ]
+            }
+        ]
+    }
+]
