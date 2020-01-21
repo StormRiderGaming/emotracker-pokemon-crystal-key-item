@@ -40,7 +40,7 @@
             },
             {
                 "name": "Cianwood City",
-                "access_rules": ["@canUseSurf"],
+                "access_rules": ["@Ecruteak City,@canUseSurf"],
                 "sections": [
                     {
                         "name": "Pharmacy",
@@ -49,7 +49,7 @@
                     },
                     {
                         "name": "Chuck's Wife",
-                        "access_rules": ["storm_badge"],
+                        "access_rules": ["@canUseStrength"],
                         "item_count": 1
                     },
                     {
@@ -103,6 +103,7 @@
                             },
                             {
                                 "name": "Flower Shop",
+                                "access_rules": ["plain_badge"],
                                 "item_count": 1
                             },
                             {
