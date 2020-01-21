@@ -2,6 +2,8 @@ Tracker:AddItems("items/common.json")
 
 Tracker:AddMaps("maps/maps.json")
 
+ScriptHost:LoadScript("scripts/logic.lua")
+
 Tracker:AddLocations("locations/virtual.json")
 Tracker:AddLocations("locations/johto.json")
 Tracker:AddLocations("locations/kanto.json")
