@@ -11,9 +11,8 @@
                     [
                         "old_rod",
                         "good_rod",
-                        "super_rod"
-                    ],
-                    [
+                        "super_rod",
+                        "",
                         "bicycle",
                         "ss_ticket",
                         "pass"
@@ -71,6 +70,8 @@
                 "v_alignment": "center",
                 "item_margin": "1,2",
                 "rows": [
+                    [ "team_rocket" ],
+                    [ "elite_four" ],
                     [ "go" ]
                 ]
             }
