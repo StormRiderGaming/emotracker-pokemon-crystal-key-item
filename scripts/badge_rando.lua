@@ -9,7 +9,7 @@ local gym_locations = {
     "@Violet City/Gym - Falkner",
     "@Celadon City/Gym - Erika",
     "@Cerulean City/Gym - Misty",
-    "@Fuschia City/Gym - Koga",
+    "@Fuschia City/Gym - Janine",
     "@Pewter City/Gym - Brock",
     "@Saffron City/Gym - Sabrina",
     "@Vermilion City/Gym - Lt. Surge",
