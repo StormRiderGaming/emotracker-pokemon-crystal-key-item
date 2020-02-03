@@ -302,6 +302,17 @@
         "codes": "go,gomode,go_mode"
     },
     {
+        "name": "Team Rocket Required Badges",
+        "type": "consumable",
+        "img": "images/other/team_rocket.png",
+        "codes": "team_rocket_badges",
+        "swap_actions" :true,
+        "max_quantity": 7,
+        "min_quantity": 4,
+        "increment": 3,
+        "initial_quantity": 7
+    },
+    {
         "name": "ROM Mode",
         "type": "progressive",
         "allow_disabled": false,

@@ -41,7 +41,8 @@
                         "hm04",
                         "hm05",
                         "hm06",
-                        "hm07"
+                        "hm07",
+                        "go"
                     ],
                     [
                         "zephyr_badge",
@@ -67,12 +68,13 @@
             },
             {
                 "type": "itemgrid",
-                "v_alignment": "center",
+                "v_alignment": "top",
                 "item_margin": "1,2",
                 "rows": [
+                    [ "team_rocket_badges" ],
+                    [ "blank" ],
                     [ "team_rocket" ],
-                    [ "elite_four" ],
-                    [ "go" ]
+                    [ "elite_four" ]
                 ]
             }
         ]
