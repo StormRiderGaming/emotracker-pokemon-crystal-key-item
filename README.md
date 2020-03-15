@@ -37,6 +37,18 @@ This tracker supports all of the Team Rocket options: normal, early Rocket, and 
 upper right of the item tracker allows you to left- or right-click to select which option you are using. (x7 for
 normal, x4 for early, x0 for rocketless).
 
+### Copycat Girl Option
+
+If using the "Randomize Copycat item" option, you can right-click on any of the five possible items to toggle it as the
+item the Copycat Girl wants. A Copycat Girl sprite will appear in the upper-right corner of the wanted item.
+
+Lost Item will have this toggled on when you initially load the tracker, since this is the normal logic when playing
+without this setting. If you are playing with this option, remember to right-click Lost Item to toggle this off before
+starting.
+
+Note that it is possible to flag more than one item as the Copycat item. This is a limitation of EmoTracker and will
+not be fixed.
+
 ### Other Settings
 
 There is also a toggle for the speedchoice ROM that is accessible from the gear icon at the top right of the item

@@ -124,7 +124,7 @@
                 "sections": [
                     {
                         "name": "Copycat Girl",
-                        "access_rules": ["lost_item"],
+                        "access_rules": ["copycat_item"],
                         "item_count": 1
                     },
                     {

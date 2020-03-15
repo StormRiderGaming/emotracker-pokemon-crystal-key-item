@@ -13,9 +13,18 @@
     },
     {
         "name": "Blue Card",
-        "type": "toggle",
-        "img": "images/items/blue_card.png",
-        "codes": "bluecard,blue_card"
+        "type": "progressive_toggle",
+        "stages": [
+            {
+                "img": "images/items/blue_card.png",
+                "codes": "bluecard,blue_card"
+            },
+            {
+                "img": "images/items/blue_card.png",
+                "img_mods": "overlay|images/other/copycat_girl.png",
+                "codes": "bluecard,blue_card,copycat_item"
+            }
+        ]
     },
     {
         "name": "Card Key",
@@ -37,21 +46,49 @@
     },
     {
         "name": "Good Rod",
-        "type": "toggle",
-        "img": "images/items/good_rod.png",
-        "codes": "goodrod,good_rod"
+        "type": "progressive_toggle",
+        "stages": [
+            {
+                "img": "images/items/good_rod.png",
+                "codes": "goodrod,good_rod"
+            },
+            {
+                "img": "images/items/good_rod.png",
+                "img_mods": "overlay|images/other/copycat_girl.png",
+                "codes": "goodrod,good_rod,copycat_item"
+            }
+        ]
     },
     {
         "name": "Itemfinder",
-        "type": "toggle",
-        "img": "images/items/item_finder.png",
-        "codes": "itemfinder,item_finder"
+        "type": "progressive_toggle",
+        "stages": [
+            {
+                "img": "images/items/item_finder.png",
+                "codes": "itemfinder,item_finder"
+            },
+            {
+                "img": "images/items/item_finder.png",
+                "img_mods": "overlay|images/other/copycat_girl.png",
+                "codes": "itemfinder,item_finder,copycat_item"
+            }
+        ]
     },
     {
         "name": "Lost Item",
-        "type": "toggle",
-        "img": "images/items/lost_item.png",
-        "codes": "lostitem,lost_item"
+        "type": "progressive_toggle",
+        "initial_stage_idx": 1,
+        "stages": [
+            {
+                "img": "images/items/lost_item.png",
+                "codes": "lostitem,lost_item"
+            },
+            {
+                "img": "images/items/lost_item.png",
+                "img_mods": "overlay|images/other/copycat_girl.png",
+                "codes": "lostitem,lost_item,copycat_item"
+            },
+        ]
     },
     {
         "name": "Machine Part",
@@ -67,9 +104,18 @@
     },
     {
         "name": "Old Rod",
-        "type": "toggle",
-        "img": "images/items/old_rod.png",
-        "codes": "oldrod,old_rod"
+        "type": "progressive_toggle",
+        "stages": [
+            {
+                "img": "images/items/old_rod.png",
+                "codes": "oldrod,old_rod"
+            },
+            {
+                "img": "images/items/old_rod.png",
+                "img_mods": "overlay|images/other/copycat_girl.png",
+                "codes": "oldrod,old_rod,copycat_item"
+            }
+        ]
     },
     {
         "name": "Pass",
