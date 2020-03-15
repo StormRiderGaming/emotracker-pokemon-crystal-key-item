@@ -22,5 +22,9 @@
     {
         "name": "canUseWaterfall",
         "access_rules": ["hm07,rising_badge"]
+    },
+    {
+        "name": "canFightTeamRocket",
+        "access_rules": ["rocket_normal,badge:7", "rocket_early,badge:4", "rocket_less"]
     }
 ]

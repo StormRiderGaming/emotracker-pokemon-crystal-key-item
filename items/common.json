@@ -303,14 +303,22 @@
     },
     {
         "name": "Team Rocket Required Badges",
-        "type": "consumable",
-        "img": "images/other/team_rocket.png",
-        "codes": "team_rocket_badges",
-        "swap_actions" :true,
-        "max_quantity": 7,
-        "min_quantity": 4,
-        "increment": 3,
-        "initial_quantity": 7
+        "type": "progressive",
+        "allow_disabled": "false",
+        "stages": [
+            {
+                "img": "images/other/rocket_normal.png",
+                "codes": "rocket_normal"
+            },
+            {
+                "img": "images/other/rocket_early.png",
+                "codes": "rocket_early"
+            },
+            {
+                "img": "images/other/rocket_less.png",
+                "codes": "rocket_less"
+            }
+        ]
     },
     {
         "name": "ROM Mode",

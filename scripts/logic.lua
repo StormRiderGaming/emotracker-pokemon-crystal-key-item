@@ -6,9 +6,3 @@ function ChuckDefeated()
         return chuck.AvailableChestCount == 0
     end
 end
-
-function canFightTeamRocket()
-    local reqBadges = Tracker:ProviderCountForCode("team_rocket_badges")
-    local badges = Tracker:ProviderCountForCode("badge")
-    return badges >= reqBadges
-end

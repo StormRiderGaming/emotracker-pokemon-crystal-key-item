@@ -17,6 +17,8 @@ If you really do want to use the development version, either:
 
 ## Usage
 
+### Main Variants
+
 This tracker has two variants, which you can pick from the menu in EmoTracker:
 
 * The standard key item and map tracker
@@ -28,6 +30,14 @@ In the badge randomizer mode, the gym locations will be treated like normal item
 "item capture" box that will offer a pop up of all the badges for faster selection. Note that selecting the badge here
 does not actually collect it. You will also need to click the item location to clear the gym and mark the badge as
 obtained. This is just how EmoTracker works.
+
+### Rocket Option
+
+This tracker supports all of the Team Rocket options: normal, early Rocket, and Rocketless. The Team Rocket logo in the
+upper right of the item tracker allows you to left- or right-click to select which option you are using. (x7 for
+normal, x4 for early, x0 for rocketless).
+
+### Other Settings
 
 There is also a toggle for the speedchoice ROM that is accessible from the gear icon at the top right of the item
 tracker. This defaults to speedchoice since this is what most players use.

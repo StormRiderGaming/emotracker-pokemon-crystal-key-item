@@ -71,7 +71,7 @@
                 "v_alignment": "top",
                 "item_margin": "1,2",
                 "rows": [
-                    [ "team_rocket_badges" ],
+                    [ "rocket_normal" ],
                     [ "blank" ],
                     [ "team_rocket" ],
                     [ "elite_four" ]
